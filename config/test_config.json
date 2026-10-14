@@ -1,0 +1,16 @@
+{
+  "base_url": "https://api.example.com",
+  "timeout_seconds": 10,
+  "headers": {
+    "Accept": "application/json"
+  },
+  "test_data": {
+    "sample": {
+      "message": "Resuable API Client"
+    },
+    "create_user": {
+      "name": "Test User",
+      "email": "test.user@example.com"
+    }
+  }
+}
