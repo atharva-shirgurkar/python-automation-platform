@@ -18,10 +18,6 @@ def base_url(test_config):
     return test_config["base_url"]
 
 
-@pytest.fixture(scope="session")
-def timeout_seconds(test_config):
-    return test_config["timeout_seconds"]
-
 
 @pytest.fixture(scope="session")
 def api_client(test_config, base_url):
