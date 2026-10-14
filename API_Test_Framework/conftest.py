@@ -5,6 +5,7 @@ from pathlib import Path
 
 
 
+
 @pytest.fixture(scope="session")
 def test_config():
     """Load shared configuration once, regardless of the working directory."""
