@@ -19,7 +19,7 @@ def base_url(test_config):
 
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def api_client(test_config, base_url):
     """Create an HTTP client with the shared URL, timeout, and headers."""
     with httpx.Client(
